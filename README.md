@@ -77,10 +77,10 @@ Can you see what SQL query is running when you provide a json object as the pass
 **Hint 4 (almost the answer)**
 
 <details>
-What does this return in sql
-<br>
+What does this return in sql:
+<br><br>
 SELECT * FROM users WHERE username = admin AND password = `password` = 1;
-<br>
+<br><br>
 How can you make the code run this query for you?
 </details>
 
