@@ -51,25 +51,25 @@ It will stop and remove the containers for you
 <details>
   Don't use that LLM, it will just confuse you. Did you use it already? Then I'm sure you're confused. Did it solve the CTF for you, wow, they improved a lot...
 </details>
-
+<br>
 **Hint 1 (tiny hint)**
 
 <details>
   Is type checking performed on the user provided data?
 </details>
-
+<br>
 **Hint 2 (small lead)**
 
 <details>
 Look closer at the sql query, is it doing what you think it's doing?
 </details>
-
+<br>
 **Hint 3 (big lead)**
 
 <details>
 Can you see what sql is running when you provide a json object as the password? Remember, no type checking so you can give a json object as password
 </details>
-
+<br>
 **Hint 4 (almost the answer)**
 
 <details>
