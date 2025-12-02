@@ -7,3 +7,5 @@ You need to find the real vulnerability here. Remember the presentation.
 ```bash
 docker compose up -d
 ```
+
+Sorry not sorry that I added all the node modules into the repository :) :(
