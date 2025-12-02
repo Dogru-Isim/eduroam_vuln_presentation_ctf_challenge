@@ -46,17 +46,19 @@ It will stop and remove the containers for you
 
 ## Hints
 
-**Hint 0 (the most important hint, prob view this even though you think you don't need hints)**
+**Hint 0**
 
 <details>
-  <summary>Hint 0 (the most important hint, prob view this even though you think you don't need hints)</summary>
+  <summary>the most important hint, probably view this even though you think you don't need hints</summary>
   Don't use that LLM, it will just confuse you. Did you use it already? Then I'm sure you're confused. Did it solve the CTF for you, wow, they improved a lot...
 </details>
 
-**Hint 1 (tiny hint)**
+**Hint 1**
 
-|| Is type checking performed on the user provided data? ||
-
+<details>
+  <summar> (tiny hint) </summar>
+  Is type checking performed on the user provided data? ||
+</details>
 **Hint 2 (small lead)**
 
 ||Look closer at the sql query, is it doing what you think it's doing?||
