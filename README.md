@@ -70,7 +70,7 @@ Look closer at the sql query, is it doing what you think it's doing?
 **Hint 3 (big lead)**
 
 <details>
-Can you see what SQL query is running when you provide a json object as the password? Remember, no type checking so you can give a json object as password
+Can you see what SQL query is running when you provide a JSON key:value pair as the password? Remember, no type checking so you can give a json object as password
 </details>
 <br>
 
