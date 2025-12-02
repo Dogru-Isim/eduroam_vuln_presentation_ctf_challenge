@@ -46,30 +46,35 @@ It will stop and remove the containers for you
 
 ## Hints
 
-**Hint 0**
+**Hint 0 (the most important hint, probably view this even though you think you don't need hints)**
 
 <details>
-  <summary>the most important hint, probably view this even though you think you don't need hints</summary>
   Don't use that LLM, it will just confuse you. Did you use it already? Then I'm sure you're confused. Did it solve the CTF for you, wow, they improved a lot...
 </details>
 
-**Hint 1**
+**Hint 1 (tiny hint)**
 
 <details>
-  <summar> (tiny hint) </summar>
-  Is type checking performed on the user provided data? ||
+  Is type checking performed on the user provided data?
 </details>
+
 **Hint 2 (small lead)**
 
-||Look closer at the sql query, is it doing what you think it's doing?||
+<details>
+Look closer at the sql query, is it doing what you think it's doing?
+</details>
 
 **Hint 3 (big lead)**
 
-||Can you see what sql is running when you provide a json object as the password? Remember, no type checking so you can give a json object as password||
+<details>
+Can you see what sql is running when you provide a json object as the password? Remember, no type checking so you can give a json object as password
+</details>
 
 **Hint 4 (almost the answer)**
 
-||What does this return in sql "SELECT * FROM users WHERE username = admin AND password = `password` = 1;". How can you make the code run this query for you?||
+<details>
+What does this return in sql "SELECT * FROM users WHERE username = admin AND password = `password` = 1;". How can you make the code run this query for you?
+</details>
 
 
 ## Note
