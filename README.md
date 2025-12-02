@@ -48,7 +48,10 @@ It will stop and remove the containers for you
 
 **Hint 0 (the most important hint, prob view this even though you think you don't need hints)**
 
-<details>Don't use that LLM, it will just confuse you. Did you use it already? Then I'm sure you're confused. Did it solve the CTF for you, wow, they improved a lot...</details>
+<details>
+  <summary>Hint 0 (the most important hint, prob view this even though you think you don't need hints)</summary>
+  Don't use that LLM, it will just confuse you. Did you use it already? Then I'm sure you're confused. Did it solve the CTF for you, wow, they improved a lot...
+</details>
 
 **Hint 1 (tiny hint)**
 
