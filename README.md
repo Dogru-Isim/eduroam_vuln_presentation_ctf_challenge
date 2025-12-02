@@ -94,3 +94,5 @@ You are right my friend.
 But you are forgetting that this is just a PoC. The same logic could be used to query other secret info.
 
 Think about invitation tokens, session cookies, API keys...
+
+User input is never hashed in those cases
