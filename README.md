@@ -88,6 +88,7 @@ How can you make the code run this query for you?
 ## Note
 
 I know you might be thinking **"but dude, everyone hashes user passwords before using them in SQL"**.
+
 You are right my friend.
 
 But you are forgetting that this is just a PoC. The same logic could be used to query other secret info.
