@@ -87,6 +87,8 @@ How can you make the code run this query for you?
 
 ## Note
 
+<details>
+<summary>Preferably, reveal this after solving the CTF</summary>
 I know you might be thinking **"but dude, everyone hashes user passwords before using them in SQL"**.
 
 You are right my friend.
@@ -96,3 +98,5 @@ But you are forgetting that this is just a PoC. The same logic could be used to 
 Think about invitation tokens, session cookies, API keys...
 
 User input is (almost) never hashed in those cases (never say never huh)
+</details>
+
