@@ -89,7 +89,7 @@ How can you make the code run this query for you?
 
 <details>
 <summary>Preferably, reveal this after solving the CTF</summary>
-I know you might be thinking **"but dude, everyone hashes user passwords before using them in SQL"**.
+I know you might be thinking "but dude, everyone hashes user passwords before using them in SQL".
 
 You are right my friend.
 
