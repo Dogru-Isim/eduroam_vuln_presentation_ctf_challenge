@@ -28,7 +28,7 @@ You can also proxy curl through BurpSuite if you prefer a GUI
 Just make sure that you have BurpSuite running on localhost:8080, Burp listens on 8080 by default so no problem expected
 
 ```bash
-curl http://localhost:3000/login -d '{"username":"admin","password":1}' -H 'Content-Type: application/json' -X POST -x localhost:8080
+curl http://localhost:3000/login -d '{"username":"admin","password":"password"}' -H 'Content-Type: application/json' -X POST -x localhost:8080
 ```
 
 Good luck and happy learning!
