@@ -9,7 +9,7 @@ chmod +x ./start.sh
 ./start.sh
 ```
 
-Don't forget to stop the services with unless
+Don't forget to stop the services and remove the docker containers with
 
 ```bash
 chmod +x ./stop.sh
