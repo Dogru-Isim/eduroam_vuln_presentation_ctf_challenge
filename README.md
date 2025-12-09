@@ -9,6 +9,12 @@ chmod +x ./start.sh
 ./start.sh
 ```
 
+Don't forget to stop the services with unless
+
+```bash
+chmod +x ./stop.sh
+```
+
 The password will be exposed, using the password for the login doesn't count as solution.
 You need to find the real vulnerability here. Remember the presentation.
 
