@@ -9,12 +9,7 @@ chmod +x ./start.sh
 ./start.sh
 ```
 
-Don't forget to stop the services and remove the docker containers with
-
-```bash
-chmod +x ./stop.sh
-./stop.sh
-```
+Don't forget to stop the services and remove the docker containers by following "How to Stop"
 
 The password will be exposed, using the password for the login doesn't count as solution.
 You need to find the real vulnerability here. Remember the presentation.
