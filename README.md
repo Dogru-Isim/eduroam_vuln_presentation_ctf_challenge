@@ -13,6 +13,7 @@ Don't forget to stop the services with unless
 
 ```bash
 chmod +x ./stop.sh
+./stop.sh
 ```
 
 The password will be exposed, using the password for the login doesn't count as solution.
