@@ -9,6 +9,8 @@ chmod +x ./start.sh
 ./start.sh
 ```
 
+Don't forget to stop the services and remove the docker containers by following "How to Stop"
+
 The password will be exposed, using the password for the login doesn't count as solution.
 You need to find the real vulnerability here. Remember the presentation.
 
@@ -24,8 +26,7 @@ You can access the vulnerable endpoint like so
 curl http://localhost:3000/login -d '{"username":"admin","password":"password"}' -H 'Content-Type: application/json' -X POST
 ```
 
-You can also proxy curl through BurpSuite if you prefer a GUI
-Just make sure that you have BurpSuite running on localhost:8080, Burp listens on 8080 by default so no problem expected
+You can also proxy curl through BurpSuite if you prefer a GUI. Just make sure that you have BurpSuite running on localhost:8080, Burp listens on 8080 by default so no problem expected
 
 ```bash
 curl http://localhost:3000/login -d '{"username":"admin","password":"password"}' -H 'Content-Type: application/json' -X POST -x localhost:8080
@@ -97,6 +98,6 @@ But you are forgetting that this is just a PoC. The same logic could be used to 
 
 Think about invitation tokens, session cookies, API keys...
 
-User input is (almost) never hashed in those cases (never say never huh)
+User input is (almost) never hashed in those cases (never say never huh?)
 </details>
 
